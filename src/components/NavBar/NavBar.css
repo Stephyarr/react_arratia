@@ -1,0 +1,20 @@
+.Navbar {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(161, 222, 161);
+}
+
+.Navbar > .nav-items > a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 15px;
+    position: relative;
+
+}
+
+h1 {
+    margin: 15px;
+}
