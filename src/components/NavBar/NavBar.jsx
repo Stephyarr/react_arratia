@@ -1,5 +1,8 @@
 import React from "react";
+import { BsFillCartFill } from 'react-icons/bs';
 import "./NavBar.css"
+
+
 
 const NavBar = () => {
     return (
@@ -10,6 +13,7 @@ const NavBar = () => {
                 <a href="/productos">Productos</a>
                 <a href="/contact">Contacto</a>
             </div>
+            <BsFillCartFill/>
         </div>
     )
 }
