@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <ItemListContainer/>
+      <ItemListContainer subtitle="Los Productos Mas Buscados"/>
     </div>
   );
 }
