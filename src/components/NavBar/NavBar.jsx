@@ -12,8 +12,9 @@ const NavBar = () => {
                 <a href="/inicio">Inicio</a>
                 <a href="/productos">Productos</a>
                 <a href="/contact">Contacto</a>
-                <BsFillCartFill/>
+            
             </div>
+            <BsFillCartFill className="icon"/>
         </div>
     )
 }
