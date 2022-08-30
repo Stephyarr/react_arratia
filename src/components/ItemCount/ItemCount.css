@@ -1,0 +1,27 @@
+.card {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.productos {
+    background: pink;
+    margin: 20px;
+
+}
+
+.button {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    gap: 10px;
+    margin: auto;
+    justify-content: center;
+}
+
+h3, p {
+    text-align: center;
+}
+
+p {
+    padding: 5px;
+}
