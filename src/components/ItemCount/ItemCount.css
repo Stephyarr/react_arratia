@@ -15,7 +15,7 @@
     grid-template-columns: 20% 20% 20%;
     gap: 10px;
     margin: auto;
-    justify-content: center;
+    justify-content: center;  
 }
 
 h3, p {
@@ -24,4 +24,11 @@ h3, p {
 
 p {
     padding: 5px;
+}
+
+.agregar {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+
 }
