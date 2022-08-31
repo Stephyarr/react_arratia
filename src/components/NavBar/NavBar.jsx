@@ -1,8 +1,6 @@
 import React from "react";
-import { BsFillCartFill } from 'react-icons/bs';
 import "./NavBar.css"
-
-
+import { CgShoppingCart } from 'react-icons/cg';
 
 const NavBar = () => {
     return (
@@ -14,7 +12,11 @@ const NavBar = () => {
                 <a href="/contact">Contacto</a>
             
             </div>
-            <BsFillCartFill className="icon"/>
+
+            <div>
+                <CgShoppingCart className="icon"/>
+            </div> 
+
         </div>
     )
 }
